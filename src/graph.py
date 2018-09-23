@@ -160,7 +160,7 @@ class Graph:
                     temp_edge_set['DirectedEdges'][endpoints] =  DirectedEdge(tail, head, **edge["properties"])
                 elif not edge["directed"]:
                     endpoints = frozenset(edge["endpoints"])
-                    endVertices = frozenset(temp_vertex_set.get(point) for point in endpoints)
+                    endVertices = (temp_vertex_set.get(point) for point in endpoints)
                     temp_edge_set['UndirectedEdges'][endpoints] = UndirectedEdge(*endVertices, **edge["properties"])
                 else:
                     raise Exception("All Edges must have a boolean-valued 'directed' field.")
