@@ -1,0 +1,113 @@
+{
+    "properties": {},
+    "vertex_set": [
+        {
+            "name": "0",
+            "properties": {}
+        },
+        {
+            "name": "1",
+            "properties": {}
+        },
+        {
+            "name": "2",
+            "properties": {}
+        },
+        {
+            "name": "3",
+            "properties": {}
+        },
+        {
+            "name": "4",
+            "properties": {}
+        },
+        {
+            "name": "5",
+            "properties": {}
+        },
+        {
+            "name": "6",
+            "properties": {}
+        },
+        {
+            "name": "7",
+            "properties": {}
+        },
+        {
+            "name": "8",
+            "properties": {}
+        }
+    ],
+    "edge_set": [
+        {
+            "endpoints": ["0","1"],
+            "directed": false,
+            "properties": {"weight":4}
+        },
+        {
+            "endpoints": ["0","7"],
+            "directed": false,
+            "properties": {"weight":8}
+        },
+        {
+            "endpoints": ["1","7"],
+            "directed": false,
+            "properties": {"weight":11}
+        },
+        {
+            "endpoints": ["1","2"],
+            "directed": false,
+            "properties": {"weight":8}
+        },
+        {
+            "endpoints": ["7","8"],
+            "directed": false,
+            "properties": {"weight":7}
+        },
+        {
+            "endpoints": ["7","6"],
+            "directed": false,
+            "properties": {"weight":1}
+        },
+        {
+            "endpoints": ["8","6"],
+            "directed": false,
+            "properties": {"weight":6}
+        },
+        {
+            "endpoints": ["2","8"],
+            "directed": false,
+            "properties": {"weight":2}
+        },
+        {
+            "endpoints": ["2","5"],
+            "directed": false,
+            "properties": {"weight":4}
+        },
+        {
+            "endpoints": ["6","5"],
+            "directed": false,
+            "properties": {"weight":2}
+        },
+        {
+            "endpoints": ["3","5"],
+            "directed": false,
+            "properties": {"weight":14}
+        },
+        {
+            "endpoints": ["2","3"],
+            "directed": false,
+            "properties": {"weight":7}
+        },
+        {
+            "endpoints": ["3","4"],
+            "directed": false,
+            "properties": {"weight":9}
+        },
+        {
+            "endpoints": ["5","4"],
+            "directed": false,
+            "properties": {"weight":10}
+        }
+    ]
+}
